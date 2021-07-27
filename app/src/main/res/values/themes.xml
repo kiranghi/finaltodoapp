@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FinalToDoApp" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+s
+    <style name="successToast">
+        <item name="stColorBackground">@color/colorPrimary</item>
+        <item name="stTextColor">#FFFFFF</item>
+        <item name="stIconStart">@drawable/check</item>
+        <item name="stStrokeColor">#FFFFFF</item>
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stLength">LONG</item>
+        <item name="stRadius">3dp</item>
+    </style>
+
+    <style name="errorToast">
+        <item name="stColorBackground">#FF4500</item>
+        <item name="stTextColor">#FFFFFF</item>
+        <item name="stIconStart">@drawable/ic_try_again</item>
+        <item name="stStrokeColor">#FFFFFF</item>
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stLength">LONG</item>
+        <item name="stRadius">3dp</item>
+    </style>
+
+    <style name="deleteToast">
+        <item name="stColorBackground">#FF4500</item>
+        <item name="stTextColor">#FFFFFF</item>
+        <item name="stIconStart">@drawable/check</item>
+        <item name="stStrokeColor">#FFFFFF</item>
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stLength">LONG</item>
+        <item name="stRadius">3dp</item>
+    </style>
+
+</resources>

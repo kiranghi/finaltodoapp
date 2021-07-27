@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="50dp"
+    android:layout_marginRight="25dp"
+    android:orientation="vertical"
+    tools:context=".EditTodoFragment">
+
+    <EditText
+        android:id="@+id/edit_fragment_txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="@string/edit_Title"
+        android:backgroundTint="@color/colorPrimary"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_fragment_txt_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:height="130dp"
+        android:ems="10"
+        android:hint="@string/edit_Description"
+        android:inputType="textMultiLine|textPersonName"
+        android:lines="5"
+        android:maxLines="5"
+        android:backgroundTint="@color/colorPrimary"
+        android:scrollbars="vertical" />
+
+    <EditText
+        android:id="@+id/edit_fragment_txt_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="@string/edit_Date"
+        android:backgroundTint="@color/colorPrimary"
+        android:inputType="textPersonName" />
+
+    <RadioGroup
+        android:id="@+id/edit_fragment_rg_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/edit_fragment_rb_high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/color_high"
+            android:text="@string/edit_High" />
+
+        <RadioButton
+            android:id="@+id/edit_fragment_rb_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/color_medium"
+            android:text="@string/edit_Medium" />
+
+        <RadioButton
+            android:id="@+id/edit_fragment_rb_low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/color_low"
+            android:text="@string/edit_Low" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/edit_fragment_chk_complete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:textSize="14sp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/edit_isCompleted" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/edit_fragment_btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_bg"
+            android:text="@string/edit_Save"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/edit_fragment_btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_bg_cancel"
+            android:text="@string/cancel"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/color_high" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

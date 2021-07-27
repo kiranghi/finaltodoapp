@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">TODOIST</string>
+    <string name="login_top_text">Registered User? Please Login</string>
+    <string name="signup_top_text">New User? Sign Up</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGNUP</string>
+    <string name="login_signup">New User? Register Now</string>
+    <string name="signup_login">Already User? SignIn Now</string>
+    <string name="error_valid_username_password">Invalid Credentials</string>
+    <string name="splash_content">Daily Task In Your Fingertips.</string>
+    <string name="splash_loading">Loading Please Wait...</string>
+    <string name="register_toast">User Registered Successfully</string>
+    <string name="login_toast">LoggedIn Successfully</string>
+    <string name="incorrect_login">Incorrect Username or Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="edit_Title">Title</string>
+    <string name="edit_Description">Description</string>
+    <string name="edit_Date">Date</string>
+    <string name="edit_Priority">Priority</string>
+    <string name="edit_isCompleted">Is Completed</string>
+    <string name="edit_High">High</string>
+    <string name="edit_Medium">Medium</string>
+    <string name="edit_Low">Low</string>
+    <string name="edit_Save">Save</string>
+    <string name="alert_cancel">Do you want to return to main screen?</string>
+    <string name="alert_delete_all">Do you want to delete all tasks?</string>
+    <string name="alert_delete_comp">Do you want to delete all completed tasks?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all_deleted">All Tasks Deleted</string>
+    <string name="del_completed">Delete Completed</string>
+    <string name="del_all">Delete All</string>
+    <string name="logout">Log Out</string>
+
+</resources>

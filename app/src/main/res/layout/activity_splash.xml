@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="362dp"
+        android:layout_height="328dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtTopText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/undraw_select_re_3kbd"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/txtTopText"
+        android:layout_width="322dp"
+        android:layout_height="149dp"
+        android:gravity="center_horizontal"
+        android:text="@string/splash_content"
+        android:textAlignment="center"
+        android:textColor="@color/color_low"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/txtBottomText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/splash_loading"
+        android:textColor="@color/color_high"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTopText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
